@@ -1,0 +1,50 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #111, #1c1c1c);
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+h1 {
+color: #ff4da6;
+}
+
+.comparison-container {
+margin: 40px 0;
+}
+
+button {
+padding: 18px 35px;
+margin: 15px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+border-radius: 10px;
+background-color: #ff4da6;
+color: white;
+transition: 0.3s ease;
+min-width: 200px;
+}
+
+button:hover {
+background-color: #ff1a8c;
+transform: scale(1.05);
+}
+
+.stats {
+margin: 20px;
+font-size: 18px;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin-top: 20px;
+}
+
+li {
+margin: 8px 0;
+font-size: 16px;
+padding: 5px;
+}
